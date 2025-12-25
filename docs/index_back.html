@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Workshop | AI</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 4.5rem; 
+            margin: 0;
+            letter-spacing: -3px;
+            font-weight: 900;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+        h1 sup {
+            font-size: 1.2rem;
+            vertical-align: top;
+            opacity: 0.4;
+            letter-spacing: normal;
+            margin-left: 5px;
+        }
+        p.tagline {
+            color: #666;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 16px 40px;
+            background: #fff;
+            color: #000;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 1rem;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .btn:hover {
+            background: #ddd;
+            transform: translateY(-2px);
+        }
+        .release-date {
+            margin-top: 15px;
+            font-size: 0.75rem;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        .guide {
+            margin-top: 60px;
+            text-align: left;
+            background: #111;
+            padding: 25px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #888;
+            border: 1px solid #222;
+        }
+        .guide h3 { 
+            color: #fff; 
+            margin-top: 0; 
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        .guide-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #222;
+        }
+        .guide-row:last-child { border-bottom: none; }
+        .file-name { font-family: "SF Mono", "Menlo", monospace; color: #33ff00; }
+        a.dl-link { color: #fff; text-decoration: underline; cursor: pointer;} 
+        a.dl-link:hover { color: #33ff00; }
+        
+        .footer {
+            margin-top: 80px;
+            color: #333;
+            font-size: 0.75rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ALIEN WORKSHOP<sup>&trade;</sup></h1>
+        <p class="tagline">Artificial Intelligence & Operations.</p>
+        
+        <a href="https://github.com/alienworkshop-ai/alienworkshop/releases/latest/download/AlienWorkshop-0.0.1-arm64.dmg" class="btn">Download v0.0.1 (Apple Silicon)</a>
+        
+        <p class="release-date">First Public Release: Dec 23, 2025</p>
+
+        <div class="guide">
+            <h3>Manifest</h3>
+            <div class="guide-row">
+                <span>Mac (Intel)</span>
+                <span class="file-name"><a href="https://github.com/alienworkshop-ai/alienworkshop/releases/latest/download/AlienWorkshop-0.0.1-x64.dmg" class="dl-link">AlienWorkshop-0.0.1-x64.dmg</a></span>
+            </div>
+            <div class="guide-row">
+                <span>Mac (Silicon)</span>
+                <span class="file-name"><a href="https://github.com/alienworkshop-ai/alienworkshop/releases/latest/download/AlienWorkshop-0.0.1-arm64.dmg" class="dl-link">AlienWorkshop-0.0.1-arm64.dmg</a></span>
+            </div>
+            <div class="guide-row">
+                <span>CLI (All)</span>
+                <span class="file-name">aw-macos / aw-linux / aw-win.exe</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 Alien Workshop LLC.<br>
+            Alien Workshop&trade; is a trademark of Alien Workshop LLC.<br>
+            <a href="https://github.com/alienworkshop-ai/alienworkshop" style="color:#444; text-decoration:none;">github.com/alienworkshop-ai</a>
+        </div>
+    </div>
+</body>
+</html>
